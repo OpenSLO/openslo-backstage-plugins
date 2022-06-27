@@ -8,6 +8,10 @@
 		"role": "frontend"
 	},
 	"scripts": {
+		"build": "tsc --build",
+		"tsc": "tsc",
+		"tsc:full": "tsc --skipLibCheck false --incremental false",
+		"clean": "tsc --clean",
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx --color"
 	},
 	"repository": {

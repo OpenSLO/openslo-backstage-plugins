@@ -5,8 +5,8 @@
 	"private": true,
 	"scripts": {
 		"build": "lerna run build",
-		"tsc": "tsc",
-		"tsc:full": "tsc --skipLibCheck false --incremental false",
+		"tsc": "lerna run tsc",
+		"tsc:full": "lerna run tsc:full",
 		"clean": "lerna run clean",
 		"diff": "lerna run diff --",
 		"test:all": "lerna run test -- --coverage",
