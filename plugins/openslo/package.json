@@ -1,0 +1,30 @@
+{
+	"name": "@backstage-plugin-openslo/openslo",
+	"description": "",
+	"version": "0.0.0",
+	"main": "index.ts",
+	"types": "index.ts",
+	"backstage": {
+		"role": "frontend"
+	},
+	"scripts": {
+		"lint": "eslint --ext .js,.jsx,.ts,.tsx --color"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/OpenSLO/backstage-plugin-openslo",
+		"directory": "openslo"
+	},
+	"license": "Apache-2.0",
+	"private": false,
+	"homepage": "https://openslo.com",
+	"keywords": [
+		"openslo",
+		"slo"
+	],
+	"bugs": {
+		"url": "https://github.com/OpenSLO/backstage-plugin-openslo"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
