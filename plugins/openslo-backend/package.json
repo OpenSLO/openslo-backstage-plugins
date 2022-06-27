@@ -1,5 +1,5 @@
 {
-	"name": "@backstage-plugin-openslo/openslo-backend",
+	"name": "@openslo/backstage-plugin-openslo-backend",
 	"description": "",
 	"version": "0.0.0",
 	"main": "index.ts",

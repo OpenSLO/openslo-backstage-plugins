@@ -1,5 +1,5 @@
 {
-	"name": "@backstage-plugin-openslo/openslo-datasource-prometheus",
+	"name": "@openslo/backstage-plugin-openslo-datasource-prometheus",
 	"description": "",
 	"version": "0.0.0",
 	"main": "index.ts",
