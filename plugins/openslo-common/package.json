@@ -27,7 +27,7 @@
 		"slo"
 	],
 	"bugs": {
-		"url": "https://github.com/OpenSLO/backstage-plugin-openslo"
+		"url": "https://github.com/OpenSLO/backstage-plugin-openslo/issues"
 	},
 	"dependencies": {},
 	"devDependencies": {}
