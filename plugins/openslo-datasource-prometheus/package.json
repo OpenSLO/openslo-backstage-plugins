@@ -1,0 +1,34 @@
+{
+	"name": "@openslo/backstage-plugin-openslo-datasource-prometheus",
+	"description": "",
+	"version": "0.0.0",
+	"main": "index.ts",
+	"types": "index.ts",
+	"backstage": {
+		"role": "frontend-module"
+	},
+	"scripts": {
+		"build": "tsc --build",
+		"tsc": "tsc",
+		"tsc:full": "tsc --skipLibCheck false --incremental false",
+		"clean": "tsc --clean",
+		"lint": "eslint --ext .js,.jsx,.ts,.tsx --color"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/OpenSLO/backstage-plugin-openslo",
+		"directory": "openslo-datasource-prometheus"
+	},
+	"license": "Apache-2.0",
+	"private": false,
+	"homepage": "https://openslo.com",
+	"keywords": [
+		"openslo",
+		"slo"
+	],
+	"bugs": {
+		"url": "https://github.com/OpenSLO/backstage-plugin-openslo/issues"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
